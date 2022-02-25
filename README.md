@@ -4,6 +4,10 @@ cd tuto_react-4<br>
 npm start<br>
 
 # Lecons
+332. React Portails: permet d'afficher un composent enfant à l'extérieur du composent App<br> 
+retrun ReactDOM.createPortal( code jsx,  document.getElementById('id'))<br>
+On utilise cette fonction si dans le css la div App est en position relative<br>
+Si zindex<br>
 
 
 
