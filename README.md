@@ -8,7 +8,7 @@ npm start<br>
 retrun ReactDOM.createPortal( code jsx,  document.getElementById('id'))<br>
 On utilise cette fonction si dans le css la div App est en position relative<br>
 Si zindex<br>
-
+333. React Refs :permet d'acceder à un element du dom et ou proprieter et methode<br>
 
 
 # Sommaire

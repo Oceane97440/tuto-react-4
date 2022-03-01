@@ -37,3 +37,7 @@ code {
   min-width: 200px;
   border-radius: 5px;
 }
+
+input:focus{
+  background-color: rgba(247, 231, 8, 0.363);
+}
