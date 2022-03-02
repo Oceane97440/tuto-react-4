@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from './components/Modal'
 import Ref from './components/Ref';
+import ForwardRef from './components/ForwardRef';
 import './App.css';
 
 class App extends Component {
@@ -37,7 +38,9 @@ class App extends Component {
    }*/
 
   handleClik = () => {
-    this.refComp.current.addFocus()
+    //this.refComp.current.addFocus()
+
+    console.log(this.refComp.current)
   }
   render() {
     //afficher ou non la modal
@@ -48,7 +51,9 @@ class App extends Component {
         {/* <p>Composent app</p>
           <button onClick={this.modalshow}> Afficher la modal</button>
          {modal} */}
-        <Ref ref={this.refComp} />
+        {/* <Ref ref={this.refComp} /> */}
+        <ForwardRef name="toto" ref={this.refComp} />
+
         <button onClick={this.handleClik}>Ok</button>
 
       </div>
